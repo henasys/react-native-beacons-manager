@@ -18,6 +18,18 @@ If you want to know more about just have a look at [my medium article](https://m
 
 If you want to test with a `simulated beacon`, there is a useful free application on `android`: [beaconsimulator](https://play.google.com/store/apps/details?id=net.alea.beaconsimulator) and `MacOS`: [BeaconEmitter](https://github.com/lgaches/BeaconEmitter)
 
+## Required React Native Version Up avoiding App Crash
+so I did it, at android/build.gradle
+
+```
+implementation 'com.facebook.react:react-native:0.20.+'
+```
+
+to
+```
+implementation 'com.facebook.react:react-native:+'
+```
+
 ## Install (iOS and Android)
 
 > Ensure to have NodeJS >= v6.x.
